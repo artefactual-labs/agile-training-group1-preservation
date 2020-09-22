@@ -1,6 +1,7 @@
 # HI
 
 class Register(): 
-    def getPlanList()
+    def getPlanList():
+        return []
     
     
