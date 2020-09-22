@@ -17,8 +17,11 @@ class Plan():
     def __init__ (self, source, has_normalization_actions):
         self.source = source
         self.has_normalization_actions = has_normalization_actions
-    
 
-var myregister = new Register (plans_list)
-    
-    
+# given        
+plans_list = [Plan("SomeLibrary", True), Plan("blabhblah", True)]
+myregister = Register(plans_list)
+# when
+myregister.DisplayPlanList()
+# then
+
